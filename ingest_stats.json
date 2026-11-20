@@ -1,0 +1,22 @@
+{
+  "chunk_count": 335,
+  "documents": [
+    "company_handbook.pdf",
+    "meeting_notes.pdf",
+    "product_guide.pdf",
+    "quarterly_report_q1_2026.pdf",
+    "security_policy.pdf"
+  ],
+  "chunks_per_document": {
+    "company_handbook.pdf": 71,
+    "meeting_notes.pdf": 43,
+    "product_guide.pdf": 102,
+    "quarterly_report_q1_2026.pdf": 50,
+    "security_policy.pdf": 69
+  },
+  "chunk_size": 512,
+  "chunk_overlap": 50,
+  "chunk_unit": "characters",
+  "embedding_model": "nomic-embed-text",
+  "embedding_dimensions": 768
+}
