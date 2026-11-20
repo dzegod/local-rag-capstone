@@ -1,0 +1,19 @@
+id     labelled source                                    rank
+q01    company_handbook.pdf                               1
+q02    company_handbook.pdf                               1
+q03    company_handbook.pdf                               1
+q04    product_guide.pdf                                  1
+q05    quarterly_report_q1_2026.pdf                       1
+q06    security_policy.pdf                                1
+q07    product_guide.pdf                                  1
+q08    meeting_notes.pdf                                  1
+q09    meeting_notes.pdf                                  1
+q10    quarterly_report_q1_2026.pdf                       1
+q11    company_handbook.pdf                               1
+q12    company_handbook.pdf; meeting_notes.pdf            1  (all 2 labelled docs in top 5: True)
+q13    company_handbook.pdf; meeting_notes.pdf            1  (all 2 labelled docs in top 5: True)
+q14    meeting_notes.pdf; quarterly_report_q1_2026.pdf    1  (all 2 labelled docs in top 5: True)
+q15    meeting_notes.pdf                                  1
+
+Questions scored: 15   Hit@5: 1.00   MRR: 1.00
+Hit@5: the right document is somewhere in the top 5. MRR: the average of 1/rank, 1.0 means always first.
